@@ -15,7 +15,7 @@ export default function AuthButton() {
         >
             {session ? (
                 <>
-                    <span className="inline-block w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+                    <span className="inline-block w-2 h-2 animate-pulse"></span>
                     ВЫХОД
                 </>
             ) : (

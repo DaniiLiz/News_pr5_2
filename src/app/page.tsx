@@ -88,7 +88,7 @@ export default function HomePage() {
                                 onClick={() => setIsCreating(true)}
                                 className="px-4 py-2 bg-transparent border border-cyan-400 text-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 shadow-lg hover:shadow-cyan-400/50"
                             >
-                                + Создать пост
+                                Создать пост
                             </button>
                         )}
                         <AuthButton />
@@ -170,7 +170,7 @@ export default function HomePage() {
                                             href={`/posts/${post.id}`}
                                             className="text-sm font-mono text-purple-400 hover:text-cyan-300 hover:underline transition-colors"
                                         >
-                                            Читать →
+                                            Читать
                                         </Link>
                                     </div>
                                 </div>
